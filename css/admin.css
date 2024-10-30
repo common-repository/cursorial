@@ -1,0 +1,131 @@
+#cursorial-admin .cursorial-blocks-table td {
+	vertical-align: top;
+}
+
+#cursorial-admin .widget-inside {
+	display: block;
+}
+
+#cursorial-admin .widget-holder {
+	padding: 7px 5px 0;
+	background-color: #FCFCFC;
+	border-color: #DFDFDF;
+}
+
+
+#cursorial-admin #cursorial-block-actions .widget-holder {
+	min-height: 0;
+	padding-bottom: 7px;
+}
+
+#cursorial-admin .widget-holder p.description {
+	margin: 0 12px 12px;
+}
+
+#cursorial-search-result .template {
+	display: none;
+}
+
+#cursorial-admin input.working {
+	background: url('../../../../wp-admin/images/loading-publish.gif') right center no-repeat;
+}
+
+#cursorial-admin .cursorial-block {
+	min-width: 250px;
+	margin: 0 10px 10px 0;
+}
+
+#cursorial-admin .cursorial-block-status-unsaved .cursorial-block-name h3 {
+	color: red;
+}
+
+#cursorial-admin #cursorial-block-status-list {
+	list-style: circle;
+	margin: 0 12px;
+	padding: 0 12px;
+	font-style: italic;
+	color: red;
+}
+
+#cursorial-admin .cursorial-posts {
+	width: 100%;
+	min-height: 100px;
+}
+
+#cursorial-admin .publishing-actions {
+	clear: both;
+	float: right;
+	padding: 8px 10px;
+}
+
+#cursorial-admin .cursorial-block-saving-button {
+	text-align: center;
+}
+
+.cursorial-block-loader {
+	position: absolute;
+	background: url('../../../../wp-includes/js/thickbox/loadingAnimation.gif') white center center no-repeat;
+}
+
+#cursorial-admin .cursorial-post .widget-top,
+#cursorial-admin .cursorial-post .widget-title h4 {
+	height: auto;
+	overflow: visible;
+	white-space: normal;
+	line-height: normal;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+}
+
+#cursorial-admin input.cursorial-field-post_title {
+	display: block;
+	font-weight: bold;
+}
+
+#cursorial-admin .cursorial-post .cursorial-thumbnail {
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin: 0 0 8px 8px;
+}
+
+#cursorial-admin .cursorial-post .widget-control-actions {
+	clear: both;
+}
+
+#cursorial-search-result .widget-control-actions {
+	display: none;
+}
+
+#cursorial-admin .cursorial-post.ui-sortable-placeholder {
+	border: 2px dashed gray;
+	border-radius: 3px;
+}
+
+#cursorial-admin .cursorial-child-depth-1 {
+	margin-left: 50px;
+}
+
+#cursorial-admin .cursorial-post.cursorial-post-rejected {
+	border-color: red;
+}
+
+#cursorial-admin .cursorial-fieldset {
+	padding: 4px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+}
+
+#cursorial-admin .cursorial-fieldtitle {
+	padding: 0 4px;
+	color: gray;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#cursorial-admin .cursorial-hidden * {
+	padding: 4px;
+	opacity: 0.25;
+	border: 1px dashed red;
+	border-radius: 3px;
+}
